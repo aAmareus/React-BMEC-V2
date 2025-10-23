@@ -37,13 +37,14 @@
     align-items: center;
     height: 50px;
     padding: 0 5px 0 5px;
-}
-
-.sidebar-item::hover {
-    background-color: #c2c2c2;
     cursor: pointer;
 }
 
 .sidebar-item:nth-child(6) {
     margin-top: calc(100vh - 380px);
+}
+
+.sidebar-item .icon {
+    width: 24px;
+    height: 24px;
 }

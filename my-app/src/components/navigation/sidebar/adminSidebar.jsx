@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+// Importing icons
+import ProfileIcon from '../../img/icons/user.svg';
+import History from '../../img/icons/history.svg';
+import Active from '../../img/icons/bookmark.svg';
+import BookIcon from '../../img/icons/book.svg';
+import EditIcon from '../../img/icons/pen.svg';
+import LogoutIcon from '../../img/icons/logout.svg';
 
 import './sidebar.css';
 
@@ -14,7 +20,7 @@ const AdminSidebar = () => {
                             Usuarios
                         </p>
                         <span>
-                            ✕
+                            <img src={ProfileIcon} alt="profile icon" className='icon' />
                         </span>
                     </li>
                     <li className="sidebar-item">
@@ -22,7 +28,7 @@ const AdminSidebar = () => {
                             Historial Reservas
                         </p>
                         <span>
-                            ✕
+                            <img src={History} alt="history icon" className='icon' />
                         </span>
                     </li>
                     <li className="sidebar-item">
@@ -30,7 +36,7 @@ const AdminSidebar = () => {
                             Reservas activas
                         </p>
                         <span>
-                            ✕
+                            <img src={Active} alt="bookmark icon" className='icon' />
                         </span>
                     </li>
                     <li className="sidebar-item">
@@ -38,7 +44,7 @@ const AdminSidebar = () => {
                             Ver Catálogo
                         </p>
                         <span>
-                            ✕
+                            <img src={BookIcon} alt="book icon" className='icon' />
                         </span>
                     </li>
                     <li className="sidebar-item">
@@ -46,15 +52,15 @@ const AdminSidebar = () => {
                             Modificar Catálogo
                         </p>
                         <span>
-                            ✕
+                            <img src={EditIcon} alt="edit icon" className='icon' />
                         </span>
                     </li>
                     <li className="sidebar-item">
                         <p>
-                            Cerrar Sesión
+                            Cerrar sesión
                         </p>
                         <span>
-                            ✕
+                            <img src={LogoutIcon} alt="logout icon" className='icon' />
                         </span>
                     </li>
                 </ul>

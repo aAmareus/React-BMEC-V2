@@ -8,7 +8,9 @@ const Preview = () => {
     <>
       <div className="preview-container">
         <h3 className="tc">¡Explore nuestro catálogo!</h3>
-        <Cards />
+        <div className="cards-wrapper">
+          <Cards />
+        </div>
       </div>
     </>
   )

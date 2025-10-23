@@ -1,0 +1,64 @@
+.see-users-container {
+    width: calc(100vw - 300px);
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 1px solid red;
+}
+
+.table-container {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.table-head .table-row{
+    background: #ececec;
+}
+
+.edit-user {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.edit-user .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.modify-btn {
+    background: #007bff;
+}
+
+.modify-btn:hover {
+    background: #004cf1;
+}
+
+.delete-btn {
+    background: #e22200;
+}
+
+.delete-btn:hover {
+    background: #b40000;
+}
+
+.edit-user .icon {
+    width: 24px;
+}
+
+
+.row-head,
+.row-data {
+    padding: 2px 10px;
+}
+
+.stats-container {
+    width: 100%;
+}
+
+.counter {
+    padding: 30px 50px;
+}
+
